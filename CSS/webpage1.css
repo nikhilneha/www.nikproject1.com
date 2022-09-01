@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century Gothic;
+}
+
+.main{
+  height: 1800px;
+  width: 1495px;
+}
+.header{
+height: 50px;
+width: 1495px;
+background-color: brown;
+}
+.header ul{
+    list-style: none;
+}
+.header ul li{
+    float: left;
+    width: 371px;
+    height: 50px;
+    line-height: 50px;
+     border: 1px solid white;
+    text-align: center;
+    position: relative;
+}
+.header ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: darkgrey;
+    transition: 0.5s;
+    display: block;
+}
+.header ul li a:hover{
+    background-color: green;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.header ul ul{
+    display: none;
+    position: absolute;
+}
+.header ul ul li{
+    color: darkgrey;
+    background-color: brown;
+}
+.header ul li:hover > ul{
+    display: block;
+}
+.container{
+    height: 680px;
+    width: 1495px;
+    background-color: black;
+}
+.container h1{
+    text-align: center;
+}
+.side{
+    width: 390px;
+    height: 680px;
+    background-color: black;
+    float: left;
+}
+.side h1{
+     padding-top: 40%;
+    text-align: center;
+    color: darkgrey;
+    text-transform: uppercase;
+text-decoration: solid;
+}
+.side h4{
+    text-align: justify;
+    color: darkgrey;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+button{
+    width: 100px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 130px;
+    position: absolute;
+    border: 2px solid white;
+    border-radius: 25px;
+    font-weight: bold;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    overflow: hidden;
+}
+button:hover{
+    background-color: green;
+    color: red;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.content{
+    width:995px ;
+    height: 680px;
+    float: left;
+}
+.content img{
+    width: 995px;
+    height: 680px;
+    float: left;
+}
+.side1{
+    width: 110px;
+    height: 680px;
+    float: left;
+}
+.side1 ul{
+    list-style: none;
+}
+.side1 ul li{
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.side1 ul li a{
+    text-decoration: none;
+    color: darkgrey;
+}
+.side1 ul li a:hover{
+    font-weight: bold;
+    text-decoration: wavy;
+    color: red;font-style: italic;
+    text-transform: uppercase;
+}
+.side1 h3{
+    color: darkgrey;
+    margin-top: 200px;
+}
+.fa-square-facebook{
+    color: blue;
+    font-size: 30px;
+    display: block;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.fa-instagram{
+    color: red;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.fa-twitter{
+    color: skyblue;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.fa-linkedin{
+    color:blue;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.gallery{
+    height: 330px;
+    width: 1495px;
+    float: left;
+}
+.product{
+    height: 330px;
+    width: 473px;
+    float: left;
+}
+.product img{
+    height: 300px;
+    width: 543px;
+    border: 3px solid red;
+}
+.product h4{
+    text-align: center;
+    text-transform: uppercase;
+}
+.gallery1{
+    height: 330px;
+    width: 1495;
+}
+.product1{
+    height: 330px;
+    width: 473px;
+    float: left;
+}
+.product1 img{
+    height: 300px;
+    width: 543px;
+    border: 3px solid red;
+}
+.product1 h4{
+    text-align: center;
+    text-transform: uppercase;
+}
+.gallery2{
+    height: 330px;
+    width: 1495;
+}
+.product2{
+    height: 330px;
+    width: 473px;
+    float: left;
+}
+.product2 img{
+    height: 300px;
+    width: 543px;
+    border: 3px solid red;
+}
+.product2 h4{
+    text-align: center;
+    text-transform: uppercase;
+}
+.footer{
+    height: 70px;
+    width: 1495px;
+    background-color: black;
+    float: left;
+}
+.d{
+    color: white;
+    margin-left: 10px;
+    font-size: 18px;
+    line-height: 70px;
+    text-decoration: underline;
+}
+.e{
+    color: white;
+    float: right;
+    margin-right: 30px;
+    font-size: 40px;
+    font-style: italic;
+    text-decoration: underline;
+    line-height: 70px;
+}
